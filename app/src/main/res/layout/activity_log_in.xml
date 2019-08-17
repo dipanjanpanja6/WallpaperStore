@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Account.LogInActivity"
+    android:orientation="vertical"
+
+    android:background="@color/item_light_theme">
+    <!--ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/bgac"
+        android:scaleType="centerCrop"/-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/main_illus"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/login_email"
+        android:hint="Email"
+        android:textColorHint="@color/black_overlay"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="Password"
+
+        android:textColorHint="@color/black_overlay"
+        android:inputType="textPassword"
+        />
+
+    <Button
+    android:id="@+id/login_button"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:drawableStart="@drawable/icon_account"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:background="@drawable/login_button_style"
+        android:layout_margin="5dp"
+        android:textAllCaps="false"
+    android:layout_marginTop="30dp"
+    android:text="Login"
+    android:textColor="@color/white"/>
+    <Button
+        android:id="@+id/create_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/signup_button_style"
+        android:layout_margin="5dp"
+        android:drawableStart="@drawable/ic_person_add_black_24dp"
+        android:paddingEnd="20dp"
+        android:textAllCaps="false"
+        android:paddingStart="20dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/creatac"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="@color/cardview_light_background"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-black"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <com.facebook.login.widget.LoginButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fb"
+        android:visibility="gone"/>
+    <Button
+        android:id="@+id/login_button_facebook"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fb_button_style"
+        android:drawableStart="@drawable/facebook"
+        android:paddingEnd="20dp"
+        android:onClick="onClick"
+        android:paddingStart="20dp"
+        android:text="Continue with Facebook"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:textStyle="bold"
+         />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/g_button"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/g_button_style"
+        android:drawableStart="@drawable/ic_search"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:text="Continue with Google"
+        android:textAllCaps="false"
+        android:textColor="#757575"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/bottom_circle"/>
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

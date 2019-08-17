@@ -1,0 +1,103 @@
+{
+  "project_info": {
+    "project_number": "494566308598",
+    "firebase_url": "https://abcd-games-22869977.firebaseio.com",
+    "project_id": "abcd-games-22869977",
+    "storage_bucket": "abcd-games-22869977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494566308598:android:ae53ea762f1c508e",
+        "android_client_info": {
+          "package_name": "com.softlink.wall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494566308598-l8nl3lca95mrisr8lc249f2dlo9ho038.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softlink.wall",
+            "certificate_hash": "66517e40e7bb5b172e279d53ec9f98dfd606b19d"
+          }
+        },
+        {
+          "client_id": "494566308598-f5e5i51qmh0857i1r37iljk87p1sept7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softlink.wall",
+            "certificate_hash": "092935250f1582b6907790b6fc9fcef3ef774bd6"
+          }
+        },
+        {
+          "client_id": "494566308598-n8b8i28msn0663hdrfe42irfgnta1nvm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softlink.wall",
+            "certificate_hash": "201114390e5bacf87b3cfbca953f9dc625c73568"
+          }
+        },
+        {
+          "client_id": "494566308598-6fq3ueosmh9vsrvi1m7nq236r2k1a5te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwN9_9aEILJtKy6_AeuADreiJw3srucCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494566308598-6fq3ueosmh9vsrvi1m7nq236r2k1a5te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6925096731283539~6967680217"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494566308598:android:a3118cd971c602b3",
+        "android_client_info": {
+          "package_name": "com.softlink.webpagetoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494566308598-3l5eihque974hadtfgfrp2bkdr7k3eva.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softlink.webpagetoapp",
+            "certificate_hash": "201114390e5bacf87b3cfbca953f9dc625c73568"
+          }
+        },
+        {
+          "client_id": "494566308598-6fq3ueosmh9vsrvi1m7nq236r2k1a5te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwN9_9aEILJtKy6_AeuADreiJw3srucCY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494566308598-6fq3ueosmh9vsrvi1m7nq236r2k1a5te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-6925096731283539~8966149402"
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,80 @@
+<androidx.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_account">
+        <Preference
+            android:key="key_user"
+            android:icon="@drawable/ic_account"
+            android:title="@string/user_name"
+            android:summary="@string/user_email" />
+
+        <Preference
+            android:icon="@drawable/ic_power"
+            android:key="@string/key_logout"
+            android:summary="@string/summary_logout"
+            android:title="@string/logout" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+
+        android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:icon="@drawable/ic_info_outline_gray_24dp"
+            android:summary="@string/summary_about" >
+
+        </Preference>
+
+        <Preference
+            android:key="@string/key_update"
+            android:icon="@drawable/ic_new"
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:icon="@drawable/ic_feedback"
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <!-- preference opens url in browser -->
+        <Preference
+            android:icon="@drawable/ic_faq"
+            android:summary="@string/summary_faq"
+            android:title="@string/title_faq">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_faq" />
+        </Preference>
+
+        <Preference android:title="@string/privacy_policy"
+            android:icon="@drawable/ic_privecy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy" />
+        </Preference>
+
+        <Preference android:title="@string/title_terms"
+            android:icon="@drawable/ic_terms">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_terms" />
+        </Preference>
+        <Preference
+            android:key="@string/key_moreapps"
+            android:icon="@drawable/ic_widgets"
+            android:summary="@string/app_moreapps"
+            android:title="@string/title_moreapps" />
+
+        <Preference android:title="@string/title_rate"
+            android:icon="@drawable/ic_rate_review">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_rate" />
+        </Preference>
+
+
+    </PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>
